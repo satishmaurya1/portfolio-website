@@ -6,6 +6,7 @@
 }
 
 
+
 /* -----navbar----- */
 
 
@@ -16,6 +17,13 @@
     padding: 1rem;
       border-bottom-left-radius: 50px;
       border-top-right-radius: 50px;
+      box-shadow: 5px 5px 15px 5px #1f60ac;
+}
+
+.nav .nav-heading{
+     background-color: #03a9f4;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #0f90fa, 0 0 30px #2290eb, 0 0 40px #4d9bdb, 0 0 55px #49FF18, 0 0 75px #49ff18
+
 }
 
 .nav .list-container{
@@ -31,11 +39,14 @@
 .nav .list-container .list-items .link{
     text-decoration: none;
     color: white;
+    background-color: #03a9f4;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #4cabeb, 0 0 30px #43b6e4, 0 0 40px #52bfe0, 0 0 55px #49FF18, 0 0 75px #49ff18
 }
 
-.nav .list-container .list-items .active{
-    font-weight: bold;
-    font-size: large;
+.nav .list-container .list-items .link:hover{
+       color: #FFFFFF;
+       background: #03a9f4;
+       text-shadow: 0 0 10px #FFFFFF;
 }
 
 
@@ -47,6 +58,7 @@
      margin-left: auto;
      margin-right: auto;
      max-width: 50%;
+     box-shadow: 5px 5px 15px 5px #b5ddec;
   
 }
 
@@ -96,13 +108,19 @@
 .footer{
     background-color:  #03a9f4;
     border-bottom-left-radius: 50px;
-      border-top-right-radius: 50px;
+    border-top-right-radius: 50px;
+      box-shadow: 5px 5px 15px 5px #2f3a77;
+
 }
 
 .footer .footer-heading{
     text-align: center;
     margin-top: 2rem;
     font-size: 2rem;
+    color: white;
+    background-color: #03a9f4;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #4cabeb, 0 0 30px #43b6e4, 0 0 40px #52bfe0, 0 0 55px #49FF18, 0 0 75px #49ff18
+
     
 }
 
@@ -134,7 +152,11 @@
     color: green;
     font-size: 4rem;
     text-align: center;
+    color: #FFF;
+    /* background-color: #333; */
+    text-shadow: #FFF 0 -1px 4px, rgb(236, 159, 255) 0 -2px 10px, #80d1f1 0 -10px 20px, rgb(41, 120, 184) 0 -18px 40px;
 }
+
 
 
 
@@ -154,18 +176,33 @@
 }
 
 .container .container-button{
-    margin-top: 1.3rem;
+     margin-top: 2rem;
      display: block;
      margin-left: auto;
      margin-right: auto;
      max-width: 50%;
-     background-color: #ff3d00;
-     font-weight: bold;
-     border: 2px solid black;
-     border-radius: 22px;
-     padding: 5px;
+
      
+     font-size: 16px;
+     line-height: 16px;
+     padding: 4px; 
+     border-radius: 11px; 
+     
+       
+      background-image: linear-gradient(rgb(126, 245, 28) 0%, rgb(188, 3, 244) 23%, rgb(207, 14, 182) 100%);
+      box-shadow: rgb(23, 147, 230) 5px 5px 15px 5px;
+       border: 2px solid rgb(28, 110, 164); 
 }
+      
+.container .container-button:hover {
+    
+    background: #1C6EA4;
+}
+.container .container-button:active {
+    background: #1B6675; 
+}
+     
+
 
 .container .container-button .container-link{
     text-decoration: none;
