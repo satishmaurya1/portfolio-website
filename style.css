@@ -10,10 +10,12 @@
 
 
 .nav{
+    max-width: 100%;
     background-color: rgb(221, 10, 193);
     color: white;
     padding: 1rem;
-      border-bottom-left-radius: 25px;
+      border-bottom-left-radius: 50px;
+      border-top-right-radius: 50px;
 }
 
 .nav .list-container{
@@ -37,9 +39,10 @@
 }
 
 
-/* -----headerImage----- */
+/* -----header----- */
 
 .header .header-img{
+    margin-top: 2rem;
      display: block;
      margin-left: auto;
      margin-right: auto;
@@ -47,7 +50,69 @@
   
 }
 
+.header .header-heading{
+    color: rgb(218, 14, 167);
+    text-align: center;
+     margin: 2rem;
+     font-size: 2rem;
+     font-weight: 1rem;
+     
+}
+
+.header .header-heading .name{
+    color: rgb(226, 19, 99);
+}
+
+.header .header-heading .title{
+    color: rgb(29, 236, 39);
+}
+
 
 /* -----section---- */
+
+.section{
+     
+     text-align: center;
+}
+
+.section .section-heading-one{
+    font-size: 2rem;
+    text-align: center;
+}
+.section .section-heading-two{
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.section .section-para-two{
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+/* ------footer----- */
+
+.footer{
+    background-color: aqua;
+    border-bottom-left-radius: 50px;
+      border-top-right-radius: 50px;
+}
+
+.footer .footer-heading{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    
+}
+
+.footer .footer-list-container{
+    text-align: center;
+}
+
+.footer .footer-list-items{
+    display: inline;
+    margin: 1rem;
+     
+}
 
 
