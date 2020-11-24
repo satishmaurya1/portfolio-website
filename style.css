@@ -11,7 +11,7 @@
 
 .nav{
     max-width: 100%;
-    background-color: rgb(221, 10, 193);
+    background-color: #03a9f4;
     color: white;
     padding: 1rem;
       border-bottom-left-radius: 50px;
@@ -51,7 +51,7 @@
 }
 
 .header .header-heading{
-    color: rgb(218, 14, 167);
+    color: #03a9f4;
     text-align: center;
      margin: 2rem;
      font-size: 2rem;
@@ -60,11 +60,11 @@
 }
 
 .header .header-heading .name{
-    color: rgb(226, 19, 99);
+    color:  #f43303;
 }
 
 .header .header-heading .title{
-    color: rgb(29, 236, 39);
+    color:  #c71090;
 }
 
 
@@ -75,25 +75,26 @@
      text-align: center;
 }
 
-.section .section-heading-one{
+.section .section-heading-light{
+    margin-top: 2rem;
     font-size: 2rem;
     text-align: center;
 }
-.section .section-heading-two{
+.section .section-heading-dark{
     margin-top: 2rem;
     font-size: 2rem;
     text-align: center;
 }
 
-.section .section-para-two{
+.section .section-para-dark{
     text-align: center;
-    background-color: #eeeeee;
+    background-color: #f5f5f5;
 }
 
 /* ------footer----- */
 
 .footer{
-    background-color: aqua;
+    background-color:  #03a9f4;
     border-bottom-left-radius: 50px;
       border-top-right-radius: 50px;
 }
@@ -107,12 +108,70 @@
 
 .footer .footer-list-container{
     text-align: center;
+
 }
 
 .footer .footer-list-items{
     display: inline;
     margin: 1rem;
+}
+
+.footer  .footer-link{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+/* ------projects style----------- */
+
+.main-heading{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-weight: 4rem;
+    color: green;
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+
+
+.container .heading{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.container .container-para{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: large;
+
+}
+
+.container .container-button{
+    margin-top: 1.3rem;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 50%;
+     background-color: #ff3d00;
+     font-weight: bold;
+     border: 2px solid black;
+     border-radius: 22px;
+     padding: 5px;
      
 }
+
+.container .container-button .container-link{
+    text-decoration: none;
+    color: white;
+
+}
+
 
 
