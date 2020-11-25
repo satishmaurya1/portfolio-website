@@ -42,6 +42,15 @@
     color: white;
    }
 
+.nav .list-container .list-items .active1{
+    font-size: large;
+    font-weight: bold;
+}
+.nav .list-container .list-items .active2{
+     font-size: large;
+    font-weight: bold;
+}
+
 .nav .list-container .list-items .link:hover{
        color: #FFFFFF;
        background: #03a9f4;
