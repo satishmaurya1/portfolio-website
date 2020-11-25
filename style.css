@@ -21,6 +21,7 @@
 }
 
 .nav .nav-heading{
+    font-size: 1.5rem;
      background-color: #03a9f4;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #0f90fa, 0 0 30px #2290eb, 0 0 40px #4d9bdb, 0 0 55px #49FF18, 0 0 75px #49ff18
 
@@ -39,9 +40,7 @@
 .nav .list-container .list-items .link{
     text-decoration: none;
     color: white;
-    background-color: #03a9f4;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #4cabeb, 0 0 30px #43b6e4, 0 0 40px #52bfe0, 0 0 55px #49FF18, 0 0 75px #49ff18
-}
+   }
 
 .nav .list-container .list-items .link:hover{
        color: #FFFFFF;
@@ -58,15 +57,15 @@
      margin-left: auto;
      margin-right: auto;
      max-width: 50%;
-     box-shadow: 5px 5px 15px 5px #b5ddec;
+     
   
 }
 
 .header .header-heading{
     color: #03a9f4;
     text-align: center;
-     margin: 2rem;
-     font-size: 2rem;
+     margin: 3rem;
+     font-size: 2.4rem;
      font-weight: 1rem;
      
 }
@@ -88,45 +87,49 @@
 }
 
 .section .section-heading-light{
-    margin-top: 2rem;
-    font-size: 2rem;
+    margin-top: 3rem;
+    font-size: 2.3rem;
     text-align: center;
 }
 .section .section-heading-dark{
-    margin-top: 2rem;
-    font-size: 2rem;
+    margin-top: 3rem;
+    font-size: 2.3rem;
     text-align: center;
+     background-color: #f5f5f5;
 }
 
 .section .section-para-dark{
     text-align: center;
     background-color: #f5f5f5;
+    font-size: 1.2rem;
+}
+
+.section .section-para-light{
+    font-size: 1.2rem;
 }
 
 /* ------footer----- */
 
 .footer{
-    background-color:  #03a9f4;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-      box-shadow: 5px 5px 15px 5px #2f3a77;
-
+    background-color:  #b25deb;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+     
 }
 
 .footer .footer-heading{
     text-align: center;
-    margin-top: 2rem;
-    font-size: 2rem;
-    color: white;
-    background-color: #03a9f4;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #4cabeb, 0 0 30px #43b6e4, 0 0 40px #52bfe0, 0 0 55px #49FF18, 0 0 75px #49ff18
-
+    margin-top: 3rem;
+    font-size: 2.2rem;
+    color: yellow;
+   background-color: linear-gradient(45deg, #f06, yellow);
+    
     
 }
 
 .footer .footer-list-container{
     text-align: center;
-
+     margin-top: 1.5rem;
 }
 
 .footer .footer-list-items{
@@ -136,8 +139,9 @@
 
 .footer  .footer-link{
     text-decoration: none;
-    color: red;
+    color: rgb(84, 238, 217);
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 
