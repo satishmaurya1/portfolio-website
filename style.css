@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Cabin:wght@500&family=Goldman&family=Lobster&family=Luckiest+Guy&family=Merriweather:ital,wght@0,400;1,900&family=Patua+One&family=Righteous&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -21,6 +24,7 @@
 }
 
 .nav .nav-heading{
+    font-family: 'Lobster', cursive;
     font-size: 1.5rem;
      background-color: #03a9f4;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #0f90fa, 0 0 30px #2290eb, 0 0 40px #4d9bdb, 0 0 55px #49FF18, 0 0 75px #49ff18
@@ -30,16 +34,19 @@
 .nav .list-container{
     list-style: none;
     text-align: right;
+    
 }
 
 .nav .list-container .list-items{
     display: inline;
     padding: 1rem;
+    
 }
 
 .nav .list-container .list-items .link{
     text-decoration: none;
     color: white;
+    font-family: 'Righteous', cursive;
    }
 
 .nav .list-container .list-items .active1{
@@ -76,17 +83,20 @@
      margin: 3rem;
      font-size: 2.4rem;
      font-weight: 1rem;
+     font-family: 'Goldman', cursive;
      
 }
 
 .header .header-heading .name{
     color:  #f43303;
     font-size: 3.3rem;
+    font-family: 'Goldman', cursive;
 }
 
 .header .header-heading .title{
     color:  #c71090;
     font-size: 3rem;
+    font-family: 'Goldman', cursive;
 }
 
 
@@ -103,6 +113,7 @@
     font-size: 2.5rem;
     text-align: center;
     color: #72075b;
+    font-family: 'Patua One', cursive;
 }
 .section .section-heading-dark{
     margin-top: 3rem;
@@ -110,6 +121,7 @@
     text-align: center;
     color: #618f0c;
      background-color: #f5f5f5;
+     font-family: 'Patua One', cursive;
 }
 
 .section .section-para-dark{
@@ -134,6 +146,7 @@
 }
 
 .footer .footer-heading{
+    font-family: 'Abril Fatface', cursive;
     text-align: center;
     margin-top: 3rem;
     font-size: 2.2rem;
@@ -173,7 +186,7 @@
     font-size: 3.3rem;
     text-align: center;
     color: #FFF;
-    /* background-color: #333; */
+    font-family: 'Abril Fatface', cursive;
     text-shadow: #FFF 0 -1px 4px, rgb(236, 159, 255) 0 -2px 10px, #80d1f1 0 -10px 20px, rgb(41, 120, 184) 0 -18px 40px;
 }
 
@@ -186,6 +199,7 @@
     font-weight: bold;
     font-size: 2.1rem;
     color: rgb(98, 8, 8);
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .container .container-para{
@@ -227,6 +241,7 @@
 .container .container-button .container-link{
     text-decoration: none;
     color: white;
+    font-family: 'Luckiest Guy', cursive;
 
 }
 
