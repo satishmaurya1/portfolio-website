@@ -84,6 +84,7 @@
 .section{
      
      text-align: center;
+     
 }
 
 .section .section-heading-light{
@@ -102,9 +103,11 @@
     text-align: center;
     background-color: #f5f5f5;
     font-size: 1.2rem;
+    padding: 1rem;
 }
 
 .section .section-para-light{
+    padding: 1rem;
     font-size: 1.2rem;
 }
 
@@ -168,8 +171,7 @@
 .container .heading{
     text-align: center;
     font-weight: bold;
-    margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .container .container-para{
@@ -212,6 +214,17 @@
     text-decoration: none;
     color: white;
 
+}
+
+.container-light{
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.container-dark{
+    padding: 1rem;
+    margin-top: 3rem;
+    background-color: rgb(203, 224, 229);
 }
 
 
