@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Cabin:wght@500&family=Goldman&family=Lobster&family=Luckiest+Guy&family=Merriweather:ital,wght@0,400;1,900&family=Patua+One&family=Righteous&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -257,12 +257,58 @@
 .container-dark{
     padding: 1rem;
     margin-top: 3rem;
-    background-color: rgb(203, 224, 229);
+    background-color: rgb(245, 253, 217);
 }
 
 
 
 /* -------blogs style------ */
 
+.header{
+    padding: 1.1rem;
+}
 
 
+.header-blogs{
+    text-align: center;
+    font-size: 2rem;
+    color: #b88a0c;
+    font-family: 'Chonburi', cursive;
+    margin-top: 4rem;
+}
+
+.header-blogs-para{
+    text-align: center;
+    margin: 2rem;
+    font-size: 1.3rem;
+}
+
+.header .header-btn{
+     margin-top: 2rem;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 50%;
+     font-size: 1.1rem;
+     border-radius: 27px;
+     padding: 0.4rem;
+     background-color: rgba(243, 2, 2, 0.329);
+     font-weight: 0.5rem;
+     
+     border: 2px solid rgb(83, 40, 238);
+     font-family: 'Luckiest Guy', cursive;
+}
+
+.header-dark{
+    background-color: rgb(228, 248, 244);
+}
+
+.header-links{
+    text-decoration: none;
+    color: #c20893;
+    
+}
+
+.header .header-btn:hover{
+    background-color: rgb(119, 238, 189);
+}
