@@ -57,6 +57,10 @@
      font-size: large;
     font-weight: bold;
 }
+.nav .list-container .list-items .active3{
+     font-size: large;
+    font-weight: bold;
+}
 
 .nav .list-container .list-items .link:hover{
        color: #FFFFFF;
@@ -255,6 +259,10 @@
     margin-top: 3rem;
     background-color: rgb(203, 224, 229);
 }
+
+
+
+/* -------blogs style------ */
 
 
 
