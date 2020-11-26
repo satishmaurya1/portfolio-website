@@ -322,3 +322,29 @@
 .header .header-btn:hover{
     background-color: rgb(119, 238, 189);
 }
+
+
+/* -------footer-blogs------ */
+
+.footer-blogs{
+         margin-top: 3rem;
+    background-color: rgb(101, 228, 233);
+}
+
+
+.footer-blogs .footer-blogs-heading{
+    font-family: "Lobster", sans-serif;
+    font-weight: 2rem;
+   
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.footer-blogs .footer-blogs-img .image{
+     margin-top: 2rem;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 50%;
+     
+}
