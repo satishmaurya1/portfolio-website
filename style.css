@@ -272,7 +272,7 @@
 .header-blogs{
     text-align: center;
     font-size: 2rem;
-    color: #b88a0c;
+    color: #17df5a;
     font-family: 'Chonburi', cursive;
     margin-top: 4rem;
 }
@@ -292,21 +292,31 @@
      font-size: 1.1rem;
      border-radius: 27px;
      padding: 0.4rem;
-     background-color: rgba(243, 2, 2, 0.329);
+     background-color: rgba(236, 104, 104, 0.329);
      font-weight: 0.5rem;
      
      border: 2px solid rgb(83, 40, 238);
-     font-family: 'Luckiest Guy', cursive;
+     
 }
 
 .header-dark{
     background-color: rgb(228, 248, 244);
+    
+    
+}
+
+.heading{
+    font-family: 'Luckiest Guy', cursive;
 }
 
 .header-links{
     text-decoration: none;
-    color: #c20893;
-    
+    color: #c20894;
+    font-family: 'Archivo Black', cursive;
+}
+
+.header .heading{
+    color: #dfbd29;
 }
 
 .header .header-btn:hover{
