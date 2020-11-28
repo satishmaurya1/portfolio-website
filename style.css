@@ -92,13 +92,13 @@
 }
 
 .header .header-heading .name{
-    color:  #f43303;
+    color:  #1f92f0;
     font-size: 3.3rem;
     font-family: 'Goldman', cursive;
 }
 
 .header .header-heading .title{
-    color:  #c71090;
+    color:  #17a8eb;
     font-size: 3rem;
     font-family: 'Goldman', cursive;
 }
@@ -116,14 +116,14 @@
     margin-top: 3rem;
     font-size: 2.5rem;
     text-align: center;
-    color: #72075b;
+    color: #1494e9;
     font-family: 'Patua One', cursive;
 }
 .section .section-heading-dark{
     margin-top: 3rem;
     font-size: 2.5rem;
     text-align: center;
-    color: #618f0c;
+    color: #117bdf;
      background-color: #f5f5f5;
      font-family: 'Patua One', cursive;
 }
@@ -143,7 +143,7 @@
 /* ------footer----- */
 
 .footer{
-    background-color:  #b25deb;
+    background-color:  #5ebcf3;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
      
@@ -154,7 +154,7 @@
     text-align: center;
     margin-top: 3rem;
     font-size: 2.2rem;
-    color: yellow;
+    color: rgb(248, 246, 245);
    background-color: linear-gradient(45deg, #f06, yellow);
     
     
@@ -186,7 +186,7 @@
     margin-top: 4rem;
     margin-bottom: 4rem;
     font-weight: 3.3rem;
-    color: green;
+    color: rgb(61, 178, 245);
     font-size: 3.3rem;
     text-align: center;
     color: #FFF;
@@ -202,7 +202,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 2.1rem;
-    color: rgb(98, 8, 8);
+    color: rgb(31, 161, 236);
     font-family: 'Archivo Black', sans-serif;
 }
 
@@ -214,27 +214,24 @@
 }
 
 .container .container-button{
-     margin-top: 2rem;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     max-width: 50%;
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    font-size: 1rem;
+    border-radius: 27px;
+    padding: 0.3rem;
+    background-color: rgba(62, 143, 235, 0.329);
+    font-weight: 0.5rem;
 
-     
-     font-size: 16px;
-     line-height: 16px;
-     padding: 4px; 
-     border-radius: 11px; 
-     
-       
-      background-image: linear-gradient(rgb(126, 245, 28) 0%, rgb(188, 3, 244) 23%, rgb(207, 14, 182) 100%);
-      box-shadow: rgb(23, 147, 230) 5px 5px 15px 5px;
-       border: 2px solid rgb(28, 110, 164); 
+    
+    border: 2px solid rgb(83, 40, 238);
 }
       
 .container .container-button:hover {
     
-    background: #1C6EA4;
+    background: #59a6da;
 }
 .container .container-button:active {
     background: #1B6675; 
@@ -244,7 +241,7 @@
 
 .container .container-button .container-link{
     text-decoration: none;
-    color: white;
+    color: rgb(49, 48, 48);
     font-family: 'Luckiest Guy', cursive;
 
 }
@@ -257,7 +254,7 @@
 .container-dark{
     padding: 1rem;
     margin-top: 3rem;
-    background-color: rgb(245, 253, 217);
+    background-color: #f5f5f5;
 }
 
 
@@ -272,7 +269,7 @@
 .header-blogs{
     text-align: center;
     font-size: 2rem;
-    color: #17df5a;
+    color: #1683e9;
     font-family: 'Chonburi', cursive;
     margin-top: 4rem;
 }
@@ -292,7 +289,7 @@
      font-size: 1.1rem;
      border-radius: 27px;
      padding: 0.4rem;
-     background-color: rgba(236, 104, 104, 0.329);
+     background-color: rgba(104, 216, 236, 0.329);
      font-weight: 0.5rem;
      
      border: 2px solid rgb(83, 40, 238);
@@ -300,7 +297,17 @@
 }
 
 .header-dark{
-    background-color: rgb(228, 248, 244);
+   
+    
+    
+   
+    font-size: 1.1rem;
+    
+    padding: 0.4rem;
+    background-color: #f5f5f5;
+    font-weight: 0.5rem;
+    
+    
     
     
 }
@@ -311,12 +318,12 @@
 
 .header-links{
     text-decoration: none;
-    color: #c20894;
+    color: #01080c;
     font-family: 'Archivo Black', cursive;
 }
 
 .header .heading{
-    color: #dfbd29;
+    color: #1e88eb;
 }
 
 .header .header-btn:hover{
@@ -328,7 +335,7 @@
 
 .footer-blogs{
          margin-top: 3rem;
-    background-color: rgb(101, 228, 233);
+    background-color: rgb(161, 211, 245);
 }
 
 
