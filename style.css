@@ -7,7 +7,9 @@
     padding: 0px;
     font-family: 'Baloo Paaji 2', cursive;
 }
-
+body{
+    background-color: black;
+}
 
 
 /* -----navbar----- */
@@ -15,24 +17,23 @@
 
 .nav{
     max-width: 100%;
-    background-color: #03a9f4;
+    background-color: #FF677D;
     color: white;
     padding: 1rem;
       border-bottom-left-radius: 50px;
-      border-top-right-radius: 50px;
-      box-shadow: 5px 5px 15px 5px #1f60ac;
 }
 
 .nav .nav-heading{
-    font-family: 'Lobster', cursive;
-    font-size: 1.5rem;
-     background-color: #03a9f4;
+    font-family: 'Archivo Black', cursive;
+    font-size: 1rem;
+     background-color:#FF677D;
    
 }
 
 .nav .list-container{
     list-style: none;
     text-align: right;
+    margin-top: 1.7rem;
     
 }
 
@@ -45,7 +46,7 @@
 .nav .list-container .list-items .link{
     text-decoration: none;
     color: white;
-    font-family: 'Righteous', cursive;
+    font-family: 'Archivo Black', cursive;
    }
 
 .nav .list-container .list-items .active1{
@@ -63,7 +64,7 @@
 
 .nav .list-container .list-items .link:hover{
        color: #FFFFFF;
-       background: #03a9f4;
+       background: #FF677D;
        text-shadow: 0 0 10px #FFFFFF;
 }
 
@@ -75,31 +76,30 @@
      display: block;
      margin-left: auto;
      margin-right: auto;
-     max-width: 50%;
+     max-width: 80%;
      
   
 }
 
 .header .header-heading{
-    color: #03a9f4;
+    color: #FF677D;
     text-align: center;
      margin: 3rem;
      font-size: 2.4rem;
-     font-weight: 1rem;
-     font-family: 'Goldman', cursive;
+     font-family: 'Archivo Black', cursive;
      
 }
 
 .header .header-heading .name{
-    color:  #1f92f0;
-    font-size: 3.3rem;
-    font-family: 'Goldman', cursive;
+    color:   white;
+    font-size: 3rem;
+    font-family: 'Archivo Black', cursive
 }
 
 .header .header-heading .title{
-    color:  #17a8eb;
+    color:  white;
     font-size: 3rem;
-    font-family: 'Goldman', cursive;
+    font-family: 'Archivo Black', cursive;
 }
 
 
@@ -115,46 +115,48 @@
     margin-top: 3rem;
     font-size: 2.5rem;
     text-align: center;
-    color: #1494e9;
-    font-family: 'Patua One', cursive;
+    color:#FF677D;
+    font-family: 'Archivo Black', cursive;
 }
 .section .section-heading-dark{
     margin-top: 3rem;
     font-size: 2.5rem;
     text-align: center;
-    color: #117bdf;
-     background-color: #f5f5f5;
-     font-family: 'Patua One', cursive;
+    color: #FF677D;
+    
+     font-family: 'Archivo Black', cursive;
 }
 
 .section .section-para-dark{
     text-align: center;
-    background-color: #f5f5f5;
-    font-size: 1.2rem;
+    font-family: 'Archivo Black', cursive;
+    color: white;
+    font-size: 1.5rem;
     padding: 1rem;
 }
 
 .section .section-para-light{
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Archivo Black', cursive;
 }
 
 /* ------footer----- */
 
 .footer{
-    background-color:  #5ebcf3;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    background-color: #FF677D;
+   
      
 }
 
 .footer .footer-heading{
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Archivo Black', cursive;
     text-align: center;
     margin-top: 3rem;
     font-size: 2.2rem;
     color: rgb(248, 246, 245);
-   background-color: linear-gradient(45deg, #f06, yellow);
+   
     
     
 }
@@ -162,16 +164,18 @@
 .footer .footer-list-container{
     text-align: center;
      margin-top: 1.5rem;
+     
 }
 
 .footer .footer-list-items{
     display: inline;
     margin: 1rem;
+    
 }
 
 .footer  .footer-link{
     text-decoration: none;
-    color: rgb(84, 238, 217);
+    color: #FF677D;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -181,16 +185,12 @@
 
 /* ------projects style----------- */
 
-.main-heading{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    font-weight: 3.3rem;
-    color: rgb(61, 178, 245);
-    font-size: 3.3rem;
-    text-align: center;
-    color: #FFF;
-    font-family: 'Abril Fatface', cursive;
-    color: black;
+.main-img{
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
     }
 
 
@@ -201,7 +201,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 2.1rem;
-    color: rgb(31, 161, 236);
+    color: #FF677D;
     font-family: 'Archivo Black', sans-serif;
 }
 
@@ -209,6 +209,10 @@
     text-align: center;
     margin-top: 2rem;
     font-size: large;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Archivo Black', sans-serif;
+    
 
 }
 
@@ -221,27 +225,27 @@
     font-size: 1rem;
     border-radius: 27px;
     padding: 0.3rem;
-    background-color: rgba(62, 143, 235, 0.329);
+    background-color: #FF677D;
     font-weight: 0.5rem;
 
     
-    border: 2px solid rgb(83, 40, 238);
+    border: 2px solid #FF677D;
 }
       
 .container .container-button:hover {
     
-    background: #59a6da;
+    background: #fc96a5;
 }
 .container .container-button:active {
-    background: #1B6675; 
+    background: #FF677D; 
 }
      
 
 
 .container .container-button .container-link{
     text-decoration: none;
-    color: rgb(49, 48, 48);
-    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    font-family: 'Archivo Black', cursive
 
 }
 
@@ -253,7 +257,7 @@
 .container-dark{
     padding: 1rem;
     margin-top: 3rem;
-    background-color: #f5f5f5;
+    background-color: black;
 }
 
 
@@ -268,8 +272,8 @@
 .header-blogs{
     text-align: center;
     font-size: 2rem;
-    color: #1683e9;
-    font-family: 'Chonburi', cursive;
+    color: #FF677D;
+    font-family: 'Archivo Black', cursive;
     margin-top: 4rem;
 }
 
@@ -277,6 +281,8 @@
     text-align: center;
     margin: 2rem;
     font-size: 1.3rem;
+    color: white;
+    font-family: 'Archivo Black', cursive;
 }
 
 .header .header-btn{
@@ -288,10 +294,10 @@
      font-size: 1.1rem;
      border-radius: 27px;
      padding: 0.4rem;
-     background-color: rgba(104, 216, 236, 0.329);
+     background-color: #FF677D;
      font-weight: 0.5rem;
      
-     border: 2px solid rgb(83, 40, 238);
+     border: 2px solid #FF677D;
      
 }
 
@@ -303,7 +309,7 @@
     font-size: 1.1rem;
     
     padding: 0.4rem;
-    background-color: #f5f5f5;
+
     font-weight: 0.5rem;
     
     
@@ -312,21 +318,21 @@
 }
 
 .heading{
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Archivo Black', cursive
 }
 
 .header-links{
     text-decoration: none;
-    color: #01080c;
+    color: white;
     font-family: 'Archivo Black', cursive;
 }
 
 .header .heading{
-    color: #1e88eb;
+    color: #FF677D;
 }
 
 .header .header-btn:hover{
-    background-color: rgb(119, 238, 189);
+    background-color: #f8a7b3;
 }
 
 
@@ -334,14 +340,14 @@
 
 .footer-blogs{
          margin-top: 3rem;
-    background-color: rgb(161, 211, 245);
+    background-color: #FF677D;
 }
 
 
 .footer-blogs .footer-blogs-heading{
-    font-family: "Lobster", sans-serif;
+    font-family: 'Archivo Black', cursive;
     font-weight: 2rem;
-   
+   color: white;
     font-size: 2.3rem;
     text-align: center;
 }
