@@ -85,20 +85,20 @@ body{
     color: #FF677D;
     text-align: center;
      margin: 3rem;
-     font-size: 2.4rem;
+     font-size: 2.1rem;
      font-family: 'Archivo Black', cursive;
      
 }
 
 .header .header-heading .name{
     color:   white;
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-family: 'Archivo Black', cursive
 }
 
 .header .header-heading .title{
     color:  white;
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-family: 'Archivo Black', cursive;
 }
 
@@ -113,14 +113,14 @@ body{
 
 .section .section-heading-light{
     margin-top: 3rem;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-align: center;
     color:#FF677D;
     font-family: 'Archivo Black', cursive;
 }
 .section .section-heading-dark{
     margin-top: 3rem;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-align: center;
     color: #FF677D;
     
@@ -131,13 +131,36 @@ body{
     text-align: center;
     font-family: 'Archivo Black', cursive;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 1rem;
+}
+
+.section .section-button-dark {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    font-size: 1.4rem;
+    border-radius: 27px;
+    padding: 0.3rem;
+    background-color: #FF677D;
+    font-weight: 0.5rem;
+    
+    
+    border: 2px solid #FF677D;
+}
+
+.section .section-button-dark a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Archivo Black', cursive;
 }
 
 .section .section-para-light{
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
     font-family: 'Archivo Black', cursive;
 }
@@ -154,7 +177,7 @@ body{
     font-family: 'Archivo Black', cursive;
     text-align: center;
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: rgb(248, 246, 245);
    
     
@@ -348,7 +371,7 @@ body{
     font-family: 'Archivo Black', cursive;
     font-weight: 2rem;
    color: white;
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
 }
 
