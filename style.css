@@ -158,6 +158,10 @@ body{
     font-family: 'Archivo Black', cursive;
 }
 
+.section .section-button-dark:hover{
+    background-color: #fc96a5;
+}
+
 .section .section-para-light{
     padding: 1rem;
     font-size: 1.3rem;
@@ -245,7 +249,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     max-width: 50%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border-radius: 27px;
     padding: 0.3rem;
     background-color: #FF677D;
