@@ -65,7 +65,7 @@ body{
 .nav .list-container .list-items .link:hover{
        color: #FFFFFF;
        background: #FF677D;
-       text-shadow: 0 0 10px #FFFFFF;
+    
 }
 
 
@@ -263,9 +263,7 @@ body{
     
     background: #fc96a5;
 }
-.container .container-button:active {
-    background: #FF677D; 
-}
+
      
 
 
